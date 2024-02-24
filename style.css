@@ -976,16 +976,20 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 
-    .social-media-about ul {
-        gap: 25px;
-    }
-
     .educ .educ-list {
         margin-left: -8%;
     }
 
+    .educ .educ-list .educ-icon1 {
+        display: none;
+    }
+
+    .educ .educ-list .educ-icon2 {
+        display: none;
+    }
+
     .educ .educ-list .educ-icon3 {
-        right: -10px;
+        display: none;
     }
 
     .educ .educ-list ul {
