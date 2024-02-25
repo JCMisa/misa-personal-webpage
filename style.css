@@ -976,6 +976,15 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 
+    .social-media-about a {
+        font-size: 20px;
+    }
+
+    .Description-about {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
     .educ .educ-list {
         margin-left: -8%;
     }
