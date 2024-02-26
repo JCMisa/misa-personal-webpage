@@ -366,6 +366,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     margin-top: 30rem;
     margin-bottom: 30rem;
+    /*margin-left: 8%;*/
 }
 
 .educ .educ-list {
@@ -484,6 +485,7 @@ body::-webkit-scrollbar-thumb {
 .container-proj {
     min-height: 100vh;
     width: 100%;
+    /*margin-left: 8%;*/
     margin-left: -20px;
     margin-bottom: 30rem;
 }
@@ -582,6 +584,7 @@ body::-webkit-scrollbar-thumb {
 .container-projects {
     min-height: 100vh;
     width: 100%;
+    /*margin-left: 8%;*/
     margin-left: -20px;
     margin-bottom: 30rem;
 }
@@ -980,14 +983,24 @@ body::-webkit-scrollbar-thumb {
         font-size: 20px;
     }
 
+    .imge-about .UserName-about {
+        display: none;
+    }
+
     .Description-about {
         font-size: 13px;
         line-height: 20px;
     }
 
+    .educ {
+        margin-left: 8%;
+    }
+
+    /*
     .educ .educ-list {
         margin-left: -8%;
     }
+    */
 
     .educ .educ-list .educ-icon1 {
         display: none;
@@ -1007,6 +1020,10 @@ body::-webkit-scrollbar-thumb {
     }
 
     /*skills*/
+    .container-proj {
+        margin-left: 8%;
+    }
+    
     .cards-proj {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1016,12 +1033,20 @@ body::-webkit-scrollbar-thumb {
     }
 
     /*projects*/
+    .container-projects {
+        margin-left: 8%;
+    }
+    
     .service-projects ul {
         flex-direction: column;
         gap: 40px;
     }
 
     /*contacts*/
+    .contact {
+        margin-left: 8%;
+    }
+    
     .container-contact {
         flex-direction: column;
     }
