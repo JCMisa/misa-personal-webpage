@@ -123,6 +123,7 @@ body::-webkit-scrollbar-thumb {
     top: 25%; /* set the location of the icons at the center of the screen (50% of screen height from top) */
     right: 0; /* position the icons at the right of the screen */
     transform: translate(-50%); /* move block elements 50% of its width to the left if negative, to the right if positive */
+    z-index: 1;
 }
 
 .social a {
@@ -968,6 +969,10 @@ body::-webkit-scrollbar-thumb {
 
     .card-home {
         margin-left: 10%;
+    }
+
+    .card2-home img {
+        display: none;
     }
 
     .card2-home .welcome-msg {
