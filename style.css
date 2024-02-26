@@ -971,7 +971,7 @@ body::-webkit-scrollbar-thumb {
         margin-left: 10%;
     }
 
-    .card2-home img {
+    .card2-home .home-icon {
         display: none;
     }
 
